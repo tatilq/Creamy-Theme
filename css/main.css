@@ -1,14 +1,16 @@
-/* Inserta tu código aquí */
+/* SELECTOR GENERAL*/
 *{
-	/*outline: 2px solid red;
-	*/
+	
 	font-family: 'Merriweather';
 }
-/*CLASE GENERALES*/
-header
-{
-	overflow: hidden;
+/*ANIMACION DE LAS PARTICULAS JS*/
+#particles-js {
+    width: 100%;
+    height: 100%auto;
+    position: fixed;
+
 }
+/*CLASE GENERALES*/
 .navbar , .about , footer{
 	
 	background: #da2c38;
@@ -20,22 +22,27 @@ header
 	background: #f4f0bb;
     color:  #da2c38;
 }
-header nav .navbar-nav li a {color: #f4f0bb;} 
-header nav .navbar-nav li :hover {background-color:#f4f0bb; color:#da2c38;}  
-/*header nav .navbar-nav {outline: 2px solid black;}*/
-header span{background-color: #7D7D7D;}
-#btn_menu{ border:1px solid white; background-color: transparent; }
+.logo, .frase
+{
+	color:#F6DEAF; 
+	font-weight: bolder;
+}
+#btn_menu
+{ 
+	border:1px solid white; 
+	background-color: transparent; 
+}
 
 /*ESTA ES LA PARTE DEL HEADER*/
-header
-{
-	padding: 10px;
-}
+header nav .navbar-nav li a {color: #f4f0bb;} 
+header nav .navbar-nav li :hover {background-color:#f4f0bb; color:#da2c38;}  
+header span{background-color: #7D7D7D;}
+header { padding: 10px; }
 .logo
 {
 	padding-left: 100px;
 }
-.logo, .frase{color:#F6DEAF; font-weight: bolder;}
+
 /*ESTA ES LA PARTE DEL HOME*/
 .home
 {
@@ -51,7 +58,7 @@ header
 }
 .frase
 {
-	padding: 150px 0px ;
+	padding: 170px 0px ;
 	margin: 0 auto;
 }
 /*ESTA ES LA PARTE DEL HERO*/
@@ -72,7 +79,6 @@ header
 {
 	font-size: 80px;
 }
-
 /*ESTA ES LA SECCION DEL FOOTER*/
 footer
 {	
