@@ -15,13 +15,14 @@ header
 	overflow: hidden;
     color: #f4f0bb;
 }
-
 .hero , .iconos
 {
 	background: #f4f0bb;
     color:  #da2c38;
 }
-
+header nav .navbar-nav li a {color: #f4f0bb;} 
+header nav .navbar-nav li :hover {background-color:#f4f0bb; color:#da2c38;}  
+header nav .navbar-nav {padding: 0px 100px;}
 header span{background-color: #7D7D7D;}
 #btn_menu{ border:1px solid white; background-color: transparent; }
 

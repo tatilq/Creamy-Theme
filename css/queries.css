@@ -2,9 +2,9 @@
 	
 	.logo
 	{
-		
 		font-size: 15px;
+    }
 		
 	}
-	
+	header nav .navbar-nav {padding: 0px;}
 }
