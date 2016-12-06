@@ -1,1 +1,31 @@
 /* Inserta tu código aquí */
+*{
+	outline: 2px solid red;
+	font-family: 'Merriweather';
+}
+header .navbar-nav{ background:#E05555; padding: 0px 20px;}
+header .navbar-nav li a:hover{background: #F6DEAF; color: black; }
+header .navbar-nav li a{color:#F6DEAF; font-size: 15px;}
+header .navbar-nav li{text-align: center;}
+header span{background-color: #7D7D7D;}
+#btn_menu{ border:1px solid white; }
+/*ESTA ES LA PARTE DEL HEADER*/
+header
+{
+	background:#E05555;
+	padding: 10px;
+}
+.logo, .frase{color:#F6DEAF;}
+/*ESTA ES LA PARTE DEL HOME*/
+.home
+{
+	background: url('../img/creamy.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.frase
+{
+	padding: 150px 0px ;
+}
