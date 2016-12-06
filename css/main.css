@@ -1,21 +1,36 @@
 /* Inserta tu código aquí */
 *{
-	outline: 2px solid red;
+	/*outline: 2px solid red;
+	*/
 	font-family: 'Merriweather';
 }
-header .navbar-nav{ background:#E05555; padding: 0px 20px;}
-header .navbar-nav li a:hover{background: #F6DEAF; color: black; }
-header .navbar-nav li a{color:#F6DEAF; font-size: 15px;}
-header .navbar-nav li{text-align: center;}
+/*CLASE GENERALES*/
+header
+{
+	overflow: hidden;
+}
+.navbar , .about , footer{
+	
+	background: #da2c38;
+	overflow: hidden;
+    color: #f4f0bb;
+}
+
+.hero , .iconos
+{
+	background: #f4f0bb;
+    color:  #da2c38;
+}
+
 header span{background-color: #7D7D7D;}
-#btn_menu{ border:1px solid white; }
+#btn_menu{ border:1px solid white; background-color: transparent; }
+
 /*ESTA ES LA PARTE DEL HEADER*/
 header
 {
-	background:#E05555;
 	padding: 10px;
 }
-.logo, .frase{color:#F6DEAF;}
+.logo, .frase{color:#F6DEAF; font-weight: bolder;}
 /*ESTA ES LA PARTE DEL HOME*/
 .home
 {
@@ -25,7 +40,37 @@ header
 	background-attachment: fixed;
 	background-size: cover;
 }
+.degradado
+{
+	background-color: rgba(19,19,19,0.75);
+}
 .frase
 {
 	padding: 150px 0px ;
+	margin: 0 auto;
+}
+/*ESTA ES LA PARTE DEL HERO*/
+.hero
+{
+	padding: 20px 0px;
+}
+/*ESTA ES LA PARTE DEL ABOUT*/
+.about{
+	padding-bottom: 20px;
+}
+/*ESTA ES LA PARTE DE LOS ICONOS*/
+.iconos
+{
+	padding: 20px 0px 80px 0px;
+}
+.icon-container
+{
+	font-size: 80px;
+}
+
+/*ESTA ES LA SECCION DEL FOOTER*/
+footer
+{	
+	padding: 10px 0px 0px 0px;
+
 }
