@@ -22,7 +22,7 @@ header
 }
 header nav .navbar-nav li a {color: #f4f0bb;} 
 header nav .navbar-nav li :hover {background-color:#f4f0bb; color:#da2c38;}  
-header nav .navbar-nav {padding: 0px 100px;}
+/*header nav .navbar-nav {outline: 2px solid black;}*/
 header span{background-color: #7D7D7D;}
 #btn_menu{ border:1px solid white; background-color: transparent; }
 
@@ -30,6 +30,10 @@ header span{background-color: #7D7D7D;}
 header
 {
 	padding: 10px;
+}
+.logo
+{
+	padding-left: 100px;
 }
 .logo, .frase{color:#F6DEAF; font-weight: bolder;}
 /*ESTA ES LA PARTE DEL HOME*/
